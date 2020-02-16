@@ -1,0 +1,1 @@
+﻿Exercise 2: Reverse engineering the legacy ECS solutionNår man kigger på det gamle design er det tydeligt at de at der er en høj kobling mellem klasserneKoblingen bliver yderliger højere pga. der bliver skabt nye objekter af de heater og tempSensor
