@@ -1,10 +1,13 @@
-﻿namespace ECS.Legacy
+﻿namespace ECS.Redesign
 {
     public class Application
     {
         public static void Main(string[] args)
         {
-            var ecs = new ECS(28);
+            var tempSensor = new TempSensor();
+            var heater = new Heater();
+
+            var ecs = new ECS(28,tempSensor,heater);
 
             ecs.Regulate();
 
